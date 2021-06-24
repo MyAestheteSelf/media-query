@@ -1,0 +1,21 @@
+.content-main{
+    display: grid;
+    grid-template-columns: 100% ;
+}
+.content-grid{
+    width:50vw;
+    margin:auto;
+}
+.preview1{
+    margin-bottom:10px;
+    margin-top:10px;
+}
+p{
+    font-size: 18px;
+    font-family: 'Satisfy';
+}
+@media (max-width:480px) {
+    p{
+        font-size: 12px;
+    }
+}

@@ -1,0 +1,15 @@
+.wrapper{
+    height: 50vh;
+    grid-template-rows: 20% 70%;
+}
+.wrapper>.nav-bar{
+    margin-bottom: 10px;
+}
+.content-main{
+    margin: auto;
+    width: 60%;
+}
+.content-main>p>img{
+    width: 40%;
+    height: 20vh;
+}

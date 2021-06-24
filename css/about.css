@@ -1,0 +1,33 @@
+.content{
+    width: 60vw;
+    height: 50vh;
+    margin:auto;
+    display: grid;
+    grid-template-columns: 30% 70%;
+    grid-template-rows:1fr ;
+}
+.image>img{
+    width: 100%;
+    margin-top: 40px;
+    border-radius: 100%;
+}
+p{
+    font-size: 18px;
+    font-family: 'Satisfy';
+}
+@media(max-width:560px) {
+    p{
+        font-size: 14px;
+        font-family: cursive;
+    }
+    .image img{
+        margin:40px 40px;
+        width: 50%;
+        height: 60%;
+    }
+    .content{
+        display: grid;
+        grid-template-columns: auto;
+        grid-template-rows:30% 70% ;
+    }
+}
